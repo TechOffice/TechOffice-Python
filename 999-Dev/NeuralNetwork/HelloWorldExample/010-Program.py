@@ -41,11 +41,21 @@ for item in range(10000):
 print("Trained Weight")
 print(weight)
 
-print("Input")
+print("Input - 1")
 print(training_input[0])
 
-print("Expected Outptut")
+print("Expected Outptut - 1")
 print(training_expected_output[0])
 
-print("Outptut")
+print("Outptut - 1")
 print(sigmoid(numpy.dot(training_input[0], weight)))
+
+print("Input - 2")
+print(training_input[1])
+
+print("Expected Outptut - 2")
+print(training_expected_output[1])
+
+print("Outptut - 2")
+print(sigmoid(numpy.dot(training_input[1], weight)))
+
