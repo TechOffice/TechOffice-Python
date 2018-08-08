@@ -1,4 +1,4 @@
-import PTL;
+from PIL import Image;
 
-im = PTL.Image.open("test.jpg");
+im = Image.open("test.jpg");
 im.show();
